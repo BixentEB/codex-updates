@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "projects": [
+    {"id":"perimgo-home","manifest":"apps/perimgo-home/latest.json","visibility":"public"},
+    {"id":"dexlibera","manifest":"apps/dexlibera/latest.json","visibility":"public"},
+    {"id":"noxdl","manifest":"apps/noxdl/latest.json","visibility":"public"}
+  ]
+}
