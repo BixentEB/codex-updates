@@ -3,13 +3,13 @@
   "id": "perimgo-business",
   "status": "testing",
   "channel": "test",
-  "version": "1.3.8",
-  "build": 12,
-  "released": null,
-  "download_url": null,
+  "version": "1.3.10",
+  "build": 14,
+  "released": "2026-10-15",
+  "download_url": "https://codex-downloads.cybanorg.workers.dev/api/v1/download",
   "sha256": null,
   "changelog": {
-    "fr": "Préparation de la distribution distante CODEX. Licence et référence d'assistance disponibles dans l'application.",
-    "en": "Preparing CODEX remote updates. License and support reference available in the app."
+    "fr": "Test de mise à jour privée CODEX depuis Périm-go 1.3.9.",
+    "en": "CODEX private update test from Périm-go 1.3.9."
   }
 }
