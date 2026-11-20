@@ -1,0 +1,50 @@
+{
+    "schema":  1,
+    "id":  "ligne4",
+    "status":  "testing",
+    "channel":  "test",
+    "version":  "0.3.3",
+    "build":  7,
+    "released":  "2026-11-21",
+    "download_url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.3.3/Ligne4-0.3.3-arm64.apk",
+    "sha256":  "ac1dcdb0b405970030866464de38d5ea4e91399419604d4578d2d7ec2941ffa5",
+    "web_url":  "https://lab.codexmental.com/ligne4/",
+    "downloads":  [
+                      {
+                          "platform":  "android",
+                          "label":  "Android (arm64)",
+                          "file":  "Ligne4-0.3.3-arm64.apk",
+                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.3.3/Ligne4-0.3.3-arm64.apk",
+                          "size":  29464848,
+                          "sha256":  "ac1dcdb0b405970030866464de38d5ea4e91399419604d4578d2d7ec2941ffa5"
+                      },
+                      {
+                          "platform":  "android",
+                          "label":  "Android (universel)",
+                          "file":  "Ligne4-0.3.3.apk",
+                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.3.3/Ligne4-0.3.3.apk",
+                          "size":  81681606,
+                          "sha256":  "a712206b7b87611f6332d729d51096f7b49303de0c1dd63599faa2a5f0e00a94"
+                      },
+                      {
+                          "platform":  "windows",
+                          "label":  "Windows",
+                          "file":  "Ligne4-0.3.3-windows.zip",
+                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.3.3/Ligne4-0.3.3-windows.zip",
+                          "size":  16390298,
+                          "sha256":  "5f6ac6f136dd736ef0b9654f4bab8f229879aff4fdc925323006ddfbb650c04f"
+                      },
+                      {
+                          "platform":  "windows-portable",
+                          "label":  "Windows portable",
+                          "file":  "Ligne4-0.3.3-windows-portable.zip",
+                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.3.3/Ligne4-0.3.3-windows-portable.zip",
+                          "size":  16390867,
+                          "sha256":  "28e7d00d722806f0b50fef3f812282e87d7c722988140e06106b07483f07bf7c"
+                      }
+                  ],
+    "changelog":  {
+                      "fr":  "Première version publique de test : niveaux et bonnets du club, année de naissance et catégories FFN calculées, version portable Windows, APK allégé pour les téléphones récents.",
+                      "en":  "First public test version: club levels and caps, year of birth and calculated FFN age groups, portable Windows version, lighter APK for recent phones."
+                  }
+}
