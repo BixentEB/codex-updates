@@ -114,6 +114,7 @@ def verifier():
                 raise ValueError("aucun document trouvé sur la page (mise en page changée ?)")
         except Exception as err:  # site indisponible, adresse changée...
             e["echecs"] = e.get("echecs", 0) + 1
+            e["derniere_erreur"] = f"{maintenant()} : {err}"
             print(f"[{s['id']}] inaccessible ({e['echecs']}) : {err}")
             if e["echecs"] == ECHECS_AVANT_ALERTE:
                 ouvrir_ticket(
@@ -124,6 +125,7 @@ def verifier():
                 )
             continue
         e["echecs"] = 0
+        e.pop("derniere_erreur", None)
         e["derniere_lecture"] = maintenant()
         if "empreinte" not in e:
             print(f"[{s['id']}] première lecture, référence enregistrée")
