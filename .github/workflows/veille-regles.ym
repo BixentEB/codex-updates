@@ -1,0 +1,49 @@
+name: Veille des règles
+
+on:
+  schedule:
+    - cron: "17 6 3 * *"   # chaque mois, le 3 à 6 h 17 UTC : vérification
+    - cron: "23 7 2 9 *"   # chaque 2 septembre : rappel de début de saison
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "verifier ou rappel"
+        default: "verifier"
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Choisir l'action
+        id: choix
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "action=${{ github.event.inputs.action }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "23 7 2 9 *" ]; then
+            echo "action=rappel" >> "$GITHUB_OUTPUT"
+          else
+            echo "action=verifier" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Créer l'étiquette des tickets (une seule fois)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh label create veille-regles --color 0E8A16 --description "Veille des règles de Ligne 4" 2>/dev/null || true
+      - name: Lancer la veille
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python veille/veille.py "${{ steps.choix.outputs.action }}"
+      - name: Enregistrer l'état
+        run: |
+          git config user.name "veille-regles"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add veille/etat.json
+          git commit -m "Veille des règles : $(date -u +%Y-%m-%d)" || echo "Rien à enregistrer"
+          git push
