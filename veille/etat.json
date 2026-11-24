@@ -1,0 +1,74 @@
+{
+ "sources": {
+  "ffn-cotation-csv": {
+   "echecs": 0,
+   "derniere_lecture": "2026-11-24T20:42:40+00:00",
+   "empreinte": "cf77a2c4a3d536908e5ad3b24a93088874c7ba1c51d4b37a0006f27f0eb83904",
+   "depuis": "2026-11-24T20:42:40+00:00"
+  },
+  "ffn-outils-informatique": {
+   "echecs": 0,
+   "derniere_lecture": "2026-11-24T20:42:41+00:00",
+   "empreinte": "882c4dd640ac175ac927f31961790eb230cd7af8bead7de64b90ea5965d5cc07",
+   "depuis": "2026-11-24T20:42:41+00:00",
+   "liens": [
+    "https://ffn.extranat.fr/html/ressources/nat/specifs_format_FFNex_v1.0.24.pdf",
+    "https://ffn.extranat.fr/html/ressources/nat/table_cotation_2017.pdf",
+    "https://ffn.extranat.fr/webffn/_extractions.php?idact=nat&action=ffnex_coefficients_rajeunissement",
+    "https://ffn.extranat.fr/webffn/_extractions.php?idact=nat&action=ffnex_coefficients_rajeunissement_relais_mixtes",
+    "https://ffn.extranat.fr/webffn/_extractions.php?idact=nat&action=ffnex_federations_fina",
+    "https://ffn.extranat.fr/webffn/_extractions.php?idact=nat&action=ffnex_formats_epreuves",
+    "https://ffn.extranat.fr/webffn/_extractions.php?idact=nat&action=ffnex_liste_departements",
+    "https://ffn.extranat.fr/webffn/_extractions.php?idact=nat&action=ffnex_liste_disciplines",
+    "https://ffn.extranat.fr/webffn/_extractions.php?idact=nat&action=ffnex_liste_disqualifications_forfaits",
+    "https://ffn.extranat.fr/webffn/_extractions.php?idact=nat&action=ffnex_liste_epreuve",
+    "https://ffn.extranat.fr/webffn/_extractions.php?idact=nat&action=ffnex_liste_interregions",
+    "https://ffn.extranat.fr/webffn/_extractions.php?idact=nat&action=ffnex_liste_niveaux_competitions",
+    "https://ffn.extranat.fr/webffn/_extractions.php?idact=nat&action=ffnex_liste_regions",
+    "https://ffn.extranat.fr/webffn/_extractions.php?idact=nat&action=ffnex_liste_roles_officiels",
+    "https://ffn.extranat.fr/webffn/_extractions.php?idact=nat&action=ffnex_liste_types_competitions",
+    "https://ffn.extranat.fr/webffn/_extractions.php?idact=nat&action=ffnex_table_cotation"
+   ]
+  },
+  "ffn-liste-epreuves": {
+   "echecs": 0,
+   "derniere_lecture": "2026-11-24T20:42:41+00:00",
+   "empreinte": "e50f289a82abcc506aefc136337a7d6bc4b530262a7086d24e53a7e8f14fb3c0",
+   "depuis": "2026-11-24T20:42:41+00:00"
+  },
+  "ffn-coef-maitres": {
+   "echecs": 0,
+   "derniere_lecture": "2026-11-24T20:42:41+00:00",
+   "empreinte": "d5c1857ad50d693e9138d5f62b1200ef6d545827882583fb66d736382bcac6b3",
+   "depuis": "2026-11-24T20:42:41+00:00"
+  },
+  "ffn-coef-maitres-mixtes": {
+   "echecs": 0,
+   "derniere_lecture": "2026-11-24T20:42:41+00:00",
+   "empreinte": "d17687dc9a951e28da82e5d34e0ac3d06a2c4b93c6af79ec26a1ba47399bfadd",
+   "depuis": "2026-11-24T20:42:41+00:00"
+  },
+  "ffn-reglements-maitres": {
+   "echecs": 1
+  },
+  "wa-points": {
+   "echecs": 0,
+   "derniere_lecture": "2026-11-24T20:42:42+00:00",
+   "empreinte": "bebaeddbdcb02d9be9dee5413f9d7ee1e2f40438335e40920a739def583c44ed",
+   "depuis": "2026-11-24T20:42:42+00:00",
+   "liens": [
+    "https://resources.fina.org/fina/document/2026/03/02/2ff83c61-de9d-4b14-8e66-dafd60974e07/World-Aquatics-Points-LCM_2026_Male-1-.pdf",
+    "https://resources.fina.org/fina/document/2026/03/02/ae522afa-e03f-417e-9169-c39e868af9a6/World-Aquatics-Points-LCM_2026_Female-1-.pdf",
+    "https://resources.fina.org/fina/document/2026/03/02/e7b71339-5788-493d-802f-7f992c6ea85d/World-Aquatics-Points-LCM_2026_Relay-1-.pdf",
+    "https://resources.fina.org/fina/document/2026/09/05/38f8e66d-8c33-45cc-a39c-150bbe69f43d/World-Aquatics-Points-SCM_2026_Female.pdf",
+    "https://resources.fina.org/fina/document/2026/09/05/9b48fb98-233c-4ce9-b67b-bc6163319bbd/Points-Base-times-SCM-and-LCM-2026_09.2026.pdf",
+    "https://resources.fina.org/fina/document/2026/09/05/b7fc9f8b-20a1-4470-bd6f-89318e0297b4/World-Aquatics-Points-SCM_2026_Relay.pdf",
+    "https://resources.fina.org/fina/document/2026/09/05/eb72585f-25af-4ac7-b052-d72a3d51ddf0/World-Aquatics-Points-SCM_2026_Male.pdf"
+   ]
+  },
+  "ffn-reglements-course": {
+   "echecs": 1
+  }
+ },
+ "derniere_execution": "2026-11-24T20:42:43+00:00"
+}
