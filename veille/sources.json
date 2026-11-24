@@ -1,0 +1,70 @@
+{
+  "info": "Sources surveillées par la veille des règles. mode « contenu » : le fichier lui-même (CSV, PDF) ; mode « liens » : la liste des documents proposés sur une page. Mettre \"actif\": false pour mettre une source en pause.",
+  "sources": [
+    {
+      "id": "ffn-cotation-csv",
+      "pack": "FFN",
+      "nom": "Table de cotation fédérale (CSV)",
+      "url": "https://ffn.extranat.fr/webffn/_extractions.php?idact=nat&action=ffnex_table_cotation",
+      "mode": "contenu",
+      "actif": true
+    },
+    {
+      "id": "ffn-outils-informatique",
+      "pack": "FFN",
+      "nom": "Page « Outils informatiques » FFN (table de cotation, FFNex, listes)",
+      "url": "https://ffn.extranat.fr/webffn/nat_informatique.php?idact=nat",
+      "mode": "liens",
+      "actif": true
+    },
+    {
+      "id": "ffn-liste-epreuves",
+      "pack": "FFN",
+      "nom": "Liste des épreuves FFN",
+      "url": "https://ffn.extranat.fr/webffn/_extractions.php?idact=nat&action=ffnex_liste_epreuve",
+      "mode": "contenu",
+      "actif": true
+    },
+    {
+      "id": "ffn-coef-maitres",
+      "pack": "FFN Maîtres",
+      "nom": "Coefficients de rajeunissement Maîtres",
+      "url": "https://ffn.extranat.fr/webffn/_extractions.php?idact=nat&action=ffnex_coefficients_rajeunissement",
+      "mode": "contenu",
+      "actif": true
+    },
+    {
+      "id": "ffn-coef-maitres-mixtes",
+      "pack": "FFN Maîtres",
+      "nom": "Coefficients de rajeunissement Maîtres, relais mixtes",
+      "url": "https://ffn.extranat.fr/webffn/_extractions.php?idact=nat&action=ffnex_coefficients_rajeunissement_relais_mixtes",
+      "mode": "contenu",
+      "actif": true
+    },
+    {
+      "id": "ffn-reglements-maitres",
+      "pack": "FFN Maîtres",
+      "nom": "Page des règlements Maîtres FFN",
+      "url": "https://www.ffnatation.fr/reglements-maitres",
+      "mode": "liens",
+      "actif": true
+    },
+    {
+      "id": "wa-points",
+      "pack": "International",
+      "nom": "Points World Aquatics (temps de base, renouvelés chaque année)",
+      "url": "https://www.worldaquatics.com/swimming/points",
+      "mode": "liens",
+      "actif": true
+    },
+    {
+      "id": "ffn-reglements-course",
+      "pack": "FFN",
+      "nom": "Page des règlements Natation course FFN",
+      "url": "",
+      "mode": "liens",
+      "actif": false,
+      "note": "À compléter : ouvrir ffnatation.fr › Compétitions › Natation course › Règlements, copier l'adresse de la page ici et passer actif à true."
+    }
+  ]
+}
