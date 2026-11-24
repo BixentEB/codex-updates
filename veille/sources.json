@@ -61,10 +61,9 @@
       "id": "ffn-reglements-course",
       "pack": "FFN",
       "nom": "Page des règlements Natation course FFN",
-      "url": "",
+      "url": "https://www.ffnatation.fr/reglements-natation-course",
       "mode": "liens",
-      "actif": false,
-      "note": "À compléter : ouvrir ffnatation.fr › Compétitions › Natation course › Règlements, copier l'adresse de la page ici et passer actif à true."
+      "actif": true
     }
   ]
 }
