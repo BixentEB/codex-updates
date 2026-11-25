@@ -3,45 +3,73 @@
     "id":  "ligne4",
     "status":  "testing",
     "channel":  "test",
-    "version":  "0.4.2",
-    "build":  10,
-    "released":  "2026-11-21",
-    "download_url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.4.2/Ligne4-0.4.2-arm64.apk",
-    "sha256":  "fab13bfccdede93e0204ad5dd463255c1e8126e7bc655be045a947dae5c368f3",
+    "version":  "0.5.0",
+    "build":  11,
+    "released":  "2026-11-25",
+    "download_url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.5.0/Ligne4-0.5.0-arm64.apk",
+    "sha256":  "754b83be5ca9d8cbf0ae15302081a6ba1334f96101980891ccf59860b59c3db5",
     "web_url":  "https://lab.codexmental.com/ligne4/",
     "downloads":  [
                       {
-                          "platform":  "android",
+                          "platform":  "android-arm64",
                           "label":  "Android (arm64)",
-                          "file":  "Ligne4-0.4.2-arm64.apk",
-                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.4.2/Ligne4-0.4.2-arm64.apk",
-                          "size":  29792868,
-                          "sha256":  "fab13bfccdede93e0204ad5dd463255c1e8126e7bc655be045a947dae5c368f3"
+                          "file":  "Ligne4-0.5.0-arm64.apk",
+                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.5.0/Ligne4-0.5.0-arm64.apk",
+                          "size":  30254970,
+                          "sha256":  "754b83be5ca9d8cbf0ae15302081a6ba1334f96101980891ccf59860b59c3db5"
                       },
                       {
                           "platform":  "android",
                           "label":  "Android (universel)",
-                          "file":  "Ligne4-0.4.2.apk",
-                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.4.2/Ligne4-0.4.2.apk",
-                          "size":  82730526,
-                          "sha256":  "426a6b98da9b11ad398dcefd45a7ccb7dac18810e3adf2befce1912955be97a6"
+                          "file":  "Ligne4-0.5.0.apk",
+                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.5.0/Ligne4-0.5.0.apk",
+                          "size":  84110128,
+                          "sha256":  "734da14e50964586ef7e9d697044c787b69241eaaa8481e2c6d0a46bdf8a2ec3"
                       },
                       {
                           "platform":  "windows",
                           "label":  "Windows",
-                          "file":  "Ligne4-0.4.2-windows.zip",
-                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.4.2/Ligne4-0.4.2-windows.zip",
-                          "size":  16505429,
-                          "sha256":  "238f4f06e38e26f175d566aa069bdbfb6e171c630d6a166e1ebbd90991c912b2"
+                          "file":  "Ligne4-0.5.0-windows.zip",
+                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.5.0/Ligne4-0.5.0-windows.zip",
+                          "size":  16745468,
+                          "sha256":  "f99689c86224339ad320305e3e67e0f57d2e3a160f972f37b50a53e412a271af"
                       },
                       {
                           "platform":  "windows-portable",
                           "label":  "Windows portable",
-                          "file":  "Ligne4-0.4.2-windows-portable.zip",
-                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.4.2/Ligne4-0.4.2-windows-portable.zip",
-                          "size":  16505995,
-                          "sha256":  "be7cecca5a25bb8093a16d43886fa851feb0a427f9a83e322e22fe0a25280d2c"
+                          "file":  "Ligne4-0.5.0-windows-portable.zip",
+                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.5.0/Ligne4-0.5.0-windows-portable.zip",
+                          "size":  16746044,
+                          "sha256":  "2185f48235ac4129da0a3aa34d2846c125ce2e115398bad5112b03ccf7c8c93a"
                       }
                   ],
-    "changelog":  null
+    "changelog":  {
+                      "date":  "2026-11-25",
+                      "titre":  {
+                                    "fr":  "Sauvegardes et mises à jour",
+                                    "en":  "Backups and updates"
+                                },
+                      "fr":  "Sauvegardes automatiques sans écrasement et mise à jour en un bouton.",
+                      "en":  "Automatic backups that never overwrite, and one-button updates.",
+                      "details":  {
+                                      "fr":  [
+                                                 "Sauvegarde automatique quelques secondes après chaque modification, sans jamais écraser la précédente : les 5 dernières, une par jour sur 7 jours, une par semaine sur 4 semaines",
+                                                 "Copie de sécurité avant toute restauration, effacement ou mise à jour : on peut toujours revenir en arrière",
+                                                 "Fichiers de sauvegarde vérifiés par une empreinte, aperçu avant de restaurer",
+                                                 "Sur ordinateur, copie automatique dans un ou plusieurs dossiers (Google Drive, OneDrive, clé USB)",
+                                                 "Rappel quand aucune copie n\u0027a été gardée hors de l\u0027appareil depuis 7 jours",
+                                                 "Mise à jour en un bouton : vérification une fois par jour, téléchargement vérifié, installation sur Android et Windows",
+                                                 "Nouvelle signature Android : exporter ses données (Réglages › Données), désinstaller une fois l\u0027ancienne version, installer la 0.5.0 puis restaurer le fichier"
+                                             ],
+                                      "en":  [
+                                                 "Automatic backup a few seconds after each change, never overwriting the previous one: last 5, one per day for 7 days, one per week for 4 weeks",
+                                                 "Safety copy before any restore, erase or update: you can always go back",
+                                                 "Backup files checked with a checksum, preview before restoring",
+                                                 "On computers, automatic copy to one or more folders (Google Drive, OneDrive, USB stick)",
+                                                 "Reminder when no copy has been kept outside the device for 7 days",
+                                                 "One-button updates: daily check, verified download, install on Android and Windows",
+                                                 "New Android signature: export your data (Settings › Data), uninstall the old version once, install 0.5.0, then restore the file"
+                                             ]
+                                  }
+                  }
 }
