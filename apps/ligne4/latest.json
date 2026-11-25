@@ -3,72 +3,74 @@
     "id":  "ligne4",
     "status":  "testing",
     "channel":  "test",
-    "version":  "0.5.0",
-    "build":  11,
+    "version":  "0.5.1",
+    "build":  12,
     "released":  "2026-11-25",
-    "download_url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.5.0/Ligne4-0.5.0-arm64.apk",
-    "sha256":  "754b83be5ca9d8cbf0ae15302081a6ba1334f96101980891ccf59860b59c3db5",
+    "download_url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.5.1/Ligne4-0.5.1-arm64.apk",
+    "sha256":  "a4229647fcf0f94182e9b0a196f8b9b02efce95c1fa2f9dca92cc03b780b53c7",
     "web_url":  "https://lab.codexmental.com/ligne4/",
     "downloads":  [
                       {
                           "platform":  "android-arm64",
                           "label":  "Android (arm64)",
-                          "file":  "Ligne4-0.5.0-arm64.apk",
-                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.5.0/Ligne4-0.5.0-arm64.apk",
-                          "size":  30254970,
-                          "sha256":  "754b83be5ca9d8cbf0ae15302081a6ba1334f96101980891ccf59860b59c3db5"
+                          "file":  "Ligne4-0.5.1-arm64.apk",
+                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.5.1/Ligne4-0.5.1-arm64.apk",
+                          "size":  30976646,
+                          "sha256":  "a4229647fcf0f94182e9b0a196f8b9b02efce95c1fa2f9dca92cc03b780b53c7"
                       },
                       {
                           "platform":  "android",
                           "label":  "Android (universel)",
-                          "file":  "Ligne4-0.5.0.apk",
-                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.5.0/Ligne4-0.5.0.apk",
-                          "size":  84110128,
-                          "sha256":  "734da14e50964586ef7e9d697044c787b69241eaaa8481e2c6d0a46bdf8a2ec3"
+                          "file":  "Ligne4-0.5.1.apk",
+                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.5.1/Ligne4-0.5.1.apk",
+                          "size":  86322752,
+                          "sha256":  "6cfbb352e24dbf6141fe1a4880a3a7615989f9ffbbcbc3a2b5d9cb94b9d51c08"
                       },
                       {
                           "platform":  "windows",
                           "label":  "Windows",
-                          "file":  "Ligne4-0.5.0-windows.zip",
-                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.5.0/Ligne4-0.5.0-windows.zip",
-                          "size":  16745468,
-                          "sha256":  "f99689c86224339ad320305e3e67e0f57d2e3a160f972f37b50a53e412a271af"
+                          "file":  "Ligne4-0.5.1-windows.zip",
+                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.5.1/Ligne4-0.5.1-windows.zip",
+                          "size":  16781112,
+                          "sha256":  "08ca575fd3c606199ac8315e65c05ff87b65c495f9e09bf344003473019c5eb0"
                       },
                       {
                           "platform":  "windows-portable",
                           "label":  "Windows portable",
-                          "file":  "Ligne4-0.5.0-windows-portable.zip",
-                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.5.0/Ligne4-0.5.0-windows-portable.zip",
-                          "size":  16746044,
-                          "sha256":  "2185f48235ac4129da0a3aa34d2846c125ce2e115398bad5112b03ccf7c8c93a"
+                          "file":  "Ligne4-0.5.1-windows-portable.zip",
+                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.5.1/Ligne4-0.5.1-windows-portable.zip",
+                          "size":  16781688,
+                          "sha256":  "342f00d32bfff2bc9e8cfaf5b5675cb1f56c0c92f9a2af4504bcb429d0410188"
                       }
                   ],
     "changelog":  {
                       "date":  "2026-11-25",
                       "titre":  {
-                                    "fr":  "Sauvegardes et mises à jour",
-                                    "en":  "Backups and updates"
+                                    "fr":  "Règles en pack",
+                                    "en":  "Rules in a pack"
                                 },
-                      "fr":  "Sauvegardes automatiques sans écrasement et mise à jour en un bouton.",
-                      "en":  "Automatic backups that never overwrite, and one-button updates.",
+                      "fr":  "Les règles de la FFN rangées dans un pack de règles, et une correction de la fenêtre de couleur.",
+                      "en":  "FFN rules moved into a rules pack, and a fix for the color picker.",
                       "details":  {
                                       "fr":  [
-                                                 "Sauvegarde automatique quelques secondes après chaque modification, sans jamais écraser la précédente : les 5 dernières, une par jour sur 7 jours, une par semaine sur 4 semaines",
-                                                 "Copie de sécurité avant toute restauration, effacement ou mise à jour : on peut toujours revenir en arrière",
-                                                 "Fichiers de sauvegarde vérifiés par une empreinte, aperçu avant de restaurer",
-                                                 "Sur ordinateur, copie automatique dans un ou plusieurs dossiers (Google Drive, OneDrive, clé USB)",
-                                                 "Rappel quand aucune copie n\u0027a été gardée hors de l\u0027appareil depuis 7 jours",
-                                                 "Mise à jour en un bouton : vérification une fois par jour, téléchargement vérifié, installation sur Android et Windows",
-                                                 "Nouvelle signature Android : exporter ses données (Réglages › Données), désinstaller une fois l\u0027ancienne version, installer la 0.5.0 puis restaurer le fichier"
+                                                 "Table de cotation, épreuves, catégories d\u0027âge et modèle des Interclubs rangés dans un pack de règles FFN : une nouvelle table pourra être livrée sans nouvelle version de l\u0027appli",
+                                                 "Aucun changement de calcul : mêmes points, mêmes équipes",
+                                                 "Fenêtre de choix de couleur lisible sur ordinateur et sur le Web",
+                                                 "Première mise à jour livrée par le bouton « Mettre à jour » de la 0.5.0",
+                                                 "Le pack décrit maintenant les Interclubs U11, U13, U15 et Maîtres en plus des Toutes catégories (calcul complet à venir).",
+                                                 "Au-delà de 18 ans, la catégorie s\u0027appelle « Seniors », comme à la FFN.",
+                                                 "Table de cotation vérifiée point par point avec les fichiers officiels FFNex, et complétée (1000 NL, relais 4×50 dos, brasse, papillon, 8×, 12×, 24×…)",
+                                                 "Coefficients de rajeunissement Maîtres intégrés : le calcul des points Maîtres est prêt"
                                              ],
                                       "en":  [
-                                                 "Automatic backup a few seconds after each change, never overwriting the previous one: last 5, one per day for 7 days, one per week for 4 weeks",
-                                                 "Safety copy before any restore, erase or update: you can always go back",
-                                                 "Backup files checked with a checksum, preview before restoring",
-                                                 "On computers, automatic copy to one or more folders (Google Drive, OneDrive, USB stick)",
-                                                 "Reminder when no copy has been kept outside the device for 7 days",
-                                                 "One-button updates: daily check, verified download, install on Android and Windows",
-                                                 "New Android signature: export your data (Settings › Data), uninstall the old version once, install 0.5.0, then restore the file"
+                                                 "Scoring table, events, age groups and the Interclubs model moved into an FFN rules pack: a new table can be shipped without a new app version",
+                                                 "No change in calculations: same points, same teams",
+                                                 "Color picker readable on computers and on the Web",
+                                                 "First update delivered through the 0.5.0 « Update » button",
+                                                 "The pack now describes U11, U13, U15 and Masters Interclubs besides the open format (full calculation coming).",
+                                                 "Above 18, the category is now called \"Seniors\", as in the FFN rules.",
+                                                 "Scoring table checked point by point against the official FFNex files and extended (1000 free, 4×50 back, breast, fly relays, 8×, 12×, 24×…)",
+                                                 "Masters age coefficients included: Masters points calculation is ready"
                                              ]
                                   }
                   }
