@@ -3,74 +3,80 @@
     "id":  "ligne4",
     "status":  "testing",
     "channel":  "test",
-    "version":  "0.5.1",
-    "build":  12,
-    "released":  "2026-11-25",
-    "download_url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.5.1/Ligne4-0.5.1-arm64.apk",
-    "sha256":  "a4229647fcf0f94182e9b0a196f8b9b02efce95c1fa2f9dca92cc03b780b53c7",
+    "version":  "0.6.0",
+    "build":  13,
+    "released":  "2026-11-26",
+    "download_url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.6.0/Ligne4-0.6.0-arm64.apk",
+    "sha256":  "c270c4a8956df6034db3e8b93a1f1a9741cf7301419186494f8050ecb9f26d32",
     "web_url":  "https://lab.codexmental.com/ligne4/",
     "downloads":  [
                       {
                           "platform":  "android-arm64",
                           "label":  "Android (arm64)",
-                          "file":  "Ligne4-0.5.1-arm64.apk",
-                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.5.1/Ligne4-0.5.1-arm64.apk",
-                          "size":  30976646,
-                          "sha256":  "a4229647fcf0f94182e9b0a196f8b9b02efce95c1fa2f9dca92cc03b780b53c7"
+                          "file":  "Ligne4-0.6.0-arm64.apk",
+                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.6.0/Ligne4-0.6.0-arm64.apk",
+                          "size":  31398873,
+                          "sha256":  "c270c4a8956df6034db3e8b93a1f1a9741cf7301419186494f8050ecb9f26d32"
                       },
                       {
                           "platform":  "android",
                           "label":  "Android (universel)",
-                          "file":  "Ligne4-0.5.1.apk",
-                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.5.1/Ligne4-0.5.1.apk",
-                          "size":  86322752,
-                          "sha256":  "6cfbb352e24dbf6141fe1a4880a3a7615989f9ffbbcbc3a2b5d9cb94b9d51c08"
+                          "file":  "Ligne4-0.6.0.apk",
+                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.6.0/Ligne4-0.6.0.apk",
+                          "size":  87367567,
+                          "sha256":  "4636d49b419ff576c61b21edabb0ff05e499915af75d7ea9d24889179ffc15f5"
                       },
                       {
                           "platform":  "windows",
                           "label":  "Windows",
-                          "file":  "Ligne4-0.5.1-windows.zip",
-                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.5.1/Ligne4-0.5.1-windows.zip",
-                          "size":  16781112,
-                          "sha256":  "08ca575fd3c606199ac8315e65c05ff87b65c495f9e09bf344003473019c5eb0"
+                          "file":  "Ligne4-0.6.0-windows.zip",
+                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.6.0/Ligne4-0.6.0-windows.zip",
+                          "size":  16985191,
+                          "sha256":  "86521689d6146813385008a51fc4f98485a6d47700c6680fc794ed56672bbf49"
                       },
                       {
                           "platform":  "windows-portable",
                           "label":  "Windows portable",
-                          "file":  "Ligne4-0.5.1-windows-portable.zip",
-                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.5.1/Ligne4-0.5.1-windows-portable.zip",
-                          "size":  16781688,
-                          "sha256":  "342f00d32bfff2bc9e8cfaf5b5675cb1f56c0c92f9a2af4504bcb429d0410188"
+                          "file":  "Ligne4-0.6.0-windows-portable.zip",
+                          "url":  "https://github.com/BixentEB/codex-updates/releases/download/ligne4-v0.6.0/Ligne4-0.6.0-windows-portable.zip",
+                          "size":  16985795,
+                          "sha256":  "95698af337b4f63e720702e94fdc409be71286d507fb50d0058c78be35c11032"
                       }
                   ],
     "changelog":  {
-                      "date":  "2026-11-25",
+                      "date":  "2026-11-26",
                       "titre":  {
-                                    "fr":  "Règles en pack",
-                                    "en":  "Rules in a pack"
+                                    "fr":  "Nouvelle allure",
+                                    "en":  "A new look"
                                 },
-                      "fr":  "Les règles de la FFN rangées dans un pack de règles, et une correction de la fenêtre de couleur.",
-                      "en":  "FFN rules moved into a rules pack, and a fix for the color picker.",
+                      "fr":  "Nouveau logo, nouveau thème Marine et une appli réorganisée : plus claire, moins de texte, tout à portée de main.",
+                      "en":  "New logo, new Marine theme and a reorganized app: clearer, less text, everything within reach.",
                       "details":  {
                                       "fr":  [
-                                                 "Table de cotation, épreuves, catégories d\u0027âge et modèle des Interclubs rangés dans un pack de règles FFN : une nouvelle table pourra être livrée sans nouvelle version de l\u0027appli",
-                                                 "Aucun changement de calcul : mêmes points, mêmes équipes",
-                                                 "Fenêtre de choix de couleur lisible sur ordinateur et sur le Web",
-                                                 "Première mise à jour livrée par le bouton « Mettre à jour » de la 0.5.0",
-                                                 "Le pack décrit maintenant les Interclubs U11, U13, U15 et Maîtres en plus des Toutes catégories (calcul complet à venir).",
-                                                 "Au-delà de 18 ans, la catégorie s\u0027appelle « Seniors », comme à la FFN.",
-                                                 "Table de cotation vérifiée point par point avec les fichiers officiels FFNex, et complétée (1000 NL, relais 4×50 dos, brasse, papillon, 8×, 12×, 24×…)",
-                                                 "Coefficients de rajeunissement Maîtres intégrés : le calcul des points Maîtres est prêt"
+                                                 "Nouveau logo : le « 4 » et son nageur, dans son couloir entre deux lignes d\u0027eau",
+                                                 "Thème Marine sombre par défaut ; les couleurs du club s\u0027y intègrent en restant lisibles",
+                                                 "Premier lancement : un seul écran pour choisir sa langue, son profil, ses activités et son club, puis une page d\u0027ouverture qu\u0027on peut passer",
+                                                 "Menu réorganisé : Accueil, Effectif (Nageurs, Temps, Groupes), Relais du club (Équipes, Règles, Épreuves, Jour J), Compétitions, Archives, Réglages",
+                                                 "Nouvel accueil avec vos compétitions et vos activités, et un mode Découverte avec des nageurs d\u0027exemple et un petit tutoriel",
+                                                 "Nouvel onglet Temps : tableau des temps de référence, des records et des qualifications (25 m / 50 m), avec noms figés, colonnes au choix et indication quand il reste des épreuves à droite",
+                                                 "Compétitions : export des records en Excel et modèle Excel à remplir, compteurs filles/garçons, raccourci vers les nageurs sans records",
+                                                 "Règles des relais du club regroupées en rubriques repliables, avec des interrupteurs et une page « Comprendre les règles »",
+                                                 "Réglages en rubriques repliables ; langue dans une liste déroulante ; logo du club ou ses initiales",
+                                                 "Version Web : guide pour l\u0027installer sur l\u0027écran d\u0027accueil (Android, iPhone, ordinateur)",
+                                                 "Petites finitions : pastilles F/G alignées, lignes qui ne se coupent plus n\u0027importe où, logo plus visible"
                                              ],
                                       "en":  [
-                                                 "Scoring table, events, age groups and the Interclubs model moved into an FFN rules pack: a new table can be shipped without a new app version",
-                                                 "No change in calculations: same points, same teams",
-                                                 "Color picker readable on computers and on the Web",
-                                                 "First update delivered through the 0.5.0 « Update » button",
-                                                 "The pack now describes U11, U13, U15 and Masters Interclubs besides the open format (full calculation coming).",
-                                                 "Above 18, the category is now called \"Seniors\", as in the FFN rules.",
-                                                 "Scoring table checked point by point against the official FFNex files and extended (1000 free, 4×50 back, breast, fly relays, 8×, 12×, 24×…)",
-                                                 "Masters age coefficients included: Masters points calculation is ready"
+                                                 "New logo: the « 4 » and its swimmer, in its lane between two lane ropes",
+                                                 "Dark Marine theme by default; club colors blend in while staying readable",
+                                                 "First launch: a single screen to pick your language, profile, activities and club, then an opening page you can skip",
+                                                 "Reorganized menu: Home, Squad (Swimmers, Times, Groups), Club relays (Teams, Rules, Events, Race day), Competitions, Archives, Settings",
+                                                 "New home with your competitions and activities, and a Discovery mode with sample swimmers and a short tutorial",
+                                                 "New Times tab: reference times, records and qualifications (25 m / 50 m), with frozen names, selectable columns and a hint when more events are to the right",
+                                                 "Competitions: export records to Excel and a fill-in Excel template, girls/boys counters, shortcut to swimmers without records",
+                                                 "Club relay rules grouped in collapsible sections, with switches and an « Understand the rules » page",
+                                                 "Settings in collapsible sections; language in a drop-down list; club logo or its initials",
+                                                 "Web version: guide to install it on the home screen (Android, iPhone, computer)",
+                                                 "Finishing touches: aligned F/G badges, lines that no longer break anywhere, more visible logo"
                                              ]
                                   }
                   }
